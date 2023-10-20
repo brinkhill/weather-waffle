@@ -1,6 +1,6 @@
 export default function Settings() {
  return (
-  <main className="min-h-[80vh] bg-blue-900">
+  <main className="min-h-[80svh] bg-blue-900">
    <h2>Settings Page</h2>
   </main>
  );

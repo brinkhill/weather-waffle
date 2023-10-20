@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
  return (
-  <footer className="min-h-[10vh] flex justify-between px-3 sm:px-7 border-t">
+  <footer className="min-h-[10svh] flex justify-between px-3 sm:px-7 border-t">
    <div className="flex flex-col justify-center text-xs sm:text-base font-bold italic hover:text-orange-400 transition">
     <Link href={"https://www.youtube.com/watch?v=eDU0CTDMk2g&pp=ygULd2FmZmxlIHNvbmc%3D"} target="_blank">
      waffle waffle waffle
