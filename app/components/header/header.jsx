@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Header() {
  return (
-  <header className="min-h-[10svh] flex justify-between px-4 sm:px-7">
-   <div className="flex flex-col justify-center text-2xl font-bold sm:text-3xl">Weather Waffle</div>
+  <header className="min-h-[10svh] flex justify-between px-4 sm:px-7 border-b">
+   <div className="flex flex-col justify-center text-3xl font-bold">Weather Waffle</div>
    <div className="flex items-center">
     <Link href={"https://github.com/brinkhill/weather-waffle"} target="_blank">
      <svg
